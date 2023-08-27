@@ -29,7 +29,7 @@
 
 html,
 body,
-input {
+input  {
   font-family: 'Mulish', sans-serif;
 }
 
@@ -97,12 +97,10 @@ input-wrapper,
 input {
   width: 100%;
   padding: .3rem;
-  background-color: var(--color-base-gray-100);
   border: 0;
   border-radius: .6rem;
   font-size: 1.6rem;
   font-weight: 600rem;
-
 }
 
 input-wrapper,
@@ -137,7 +135,6 @@ h1 {
 }
 
 .item img {
-  width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
 
@@ -145,6 +142,7 @@ h1 {
   transition-duration: 300ms;
   transition-delay: 0;
   transition-timing-function: ease-out; */
+
   /*short*/
   transition: all 2ms ease-out;
   display: block;
@@ -190,11 +188,6 @@ p {
 
 header {
   --startY: -100%;
-  animation: move .2s;
-}
-
-footer {
-  --startY: 100%;
   animation: move .2s;
 }
 
